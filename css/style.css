@@ -21,6 +21,9 @@ a:hover {
 .fw900{
     font-weight: 900;
 }
+.pt_100{
+    padding-top: 100px;
+}
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
     font-size: .9rem;
@@ -40,27 +43,49 @@ footer{
 }
 
 .box-index{
-    background: rgba(98, 98, 98, 0.27);
+    background: rgba(98, 98, 98, 0.21);
     padding: 20px 25px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 2px;
 }
 
+.resposive-img {
+    /*height: auto;*/
+    max-width: 100%;
+}
+.box-about{
+    padding: 10%;
+}
+.i-bars i{
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #0000df;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box-about-services{
+    text-align: center;
+    border: 1px solid rgba(204, 204, 204, 0.32);
+    padding: 30px 10px;
+    background: rgba(255, 255, 255, 0.68);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.down-services i{
+    color: #212529;
+}
+.down-services i:hover{
+    color: #0000df;
+}
+.img-about{
+    margin-top: -100px;
+    max-width: 100%;
+}
 
 
 
@@ -78,6 +103,12 @@ footer{
     }
     .text-1-index{
         font-size: 40px;
+    }
+    .box-about{
+            padding: 140px 70px 0px 140px!important;
+    }
+    .about-text-2{
+        line-height: 35px;
     }
 }
 
