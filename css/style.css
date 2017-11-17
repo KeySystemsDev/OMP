@@ -150,7 +150,7 @@ footer{
 
 .grid__item--high,
 .grid__item--high img {
-  height: 480px;
+  height: 300px;
 }
 
 .img-resposive-mansonry {
@@ -158,6 +158,59 @@ footer{
   max-width: 100%;
   height: auto;
 }
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url(../img/carre.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+.red{
+    color: red;
+}
+.form-control {
+    border-radius: 0px;
+    box-shadow: 0px 1px 15px rgba(136, 136, 136, 0.52);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #eeeeee;
+    outline: 0;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: none;
+    border: none;
+    border-radius: 0px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+.btn-submit{
+    background: #0000df;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -188,7 +241,10 @@ footer{
         padding: 50px 10px 0px 20px!important;
         line-height: 35px;
     }
-
+    .contai-p{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 @media (min-width: 992px){
