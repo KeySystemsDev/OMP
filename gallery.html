@@ -24,6 +24,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/masonry.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
   </head>
@@ -31,7 +32,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background: #1a1a1a;">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="index.html"><img width="100px" src="img/logo.png"></a>
         <button class="navbar-toggler navbar-toggler-right i-bars" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger actives" href="">Home</a>
+              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
@@ -49,7 +50,7 @@
               <a class="nav-link js-scroll-trigger" href="products_services.html">Products and Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="gallery.html">Product Gallery</a>
+              <a class="nav-link js-scroll-trigger actives" href="">Product Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
@@ -62,18 +63,42 @@
       </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex" style="background-image: url(img/home/home.jpg);">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-6 t_left box-index">
-            <h2 class="text-1-index fw900">
-              Our Purpose
-            </h2>
-            <p>We exist to solve material handling<br> challenges with the highest quality at the<br> LOWEST price</p>
+    <section class="bg-primary" style="background-color: #f8f6f6!important;">
+      <div class="container">
+        <h2 class="text-1-index fw900 t_center">
+                Product Gallery
+        </h2>
+        <br><br>
+        <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="grid-item grid-item--width2 grid-item--height2">
+            </div>
+            <div class="grid-item grid-item--height2"></div>
+            <div class="grid-item grid-item--width3"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item grid-item--height2"></div>
+            <div class="grid-item grid-item--width2 grid-item--height3"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item grid-item--height2"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item grid-item--width2 grid-item--height2"></div>
+            <div class="grid-item grid-item--width2"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item grid-item--height2"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item grid-item--height3"></div>
+            <div class="grid-item grid-item--height2"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item grid-item--height2"></div>
           </div>
-        </div>
+        <div class="grid-alpha"></div>
       </div>
-    </header>
+    </section>
+
 
     <footer class="bg-footer">
       <br>
@@ -97,6 +122,9 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
+    <!-- -->
+    <script src='https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js'></script>
+    <script  src="js/masonry.js"></script>
   </body>
 
 </html>

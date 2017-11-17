@@ -67,7 +67,6 @@ footer{
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #0000df;
 }
-
 .box-about-services{
     text-align: center;
     border: 1px solid rgba(204, 204, 204, 0.32);
@@ -86,6 +85,12 @@ footer{
     margin-top: -100px;
     max-width: 100%;
 }
+.box-services{
+     padding: 10%;
+}
+
+
+
 
 
 
@@ -110,6 +115,11 @@ footer{
     .about-text-2{
         line-height: 35px;
     }
+    .box-services{
+        padding: 50px 10px 0px 20px!important;
+        line-height: 35px;
+    }
+
 }
 
 @media (min-width: 992px){
@@ -132,3 +142,11 @@ footer{
         transition: all .2s;
     }
 }
+@media (min-width: 992px){
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #0000df;
+    }
+}
+
+
+
