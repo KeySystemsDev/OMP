@@ -85,7 +85,7 @@ footer{
     margin-top: -100px;
     max-width: 100%;
 }
-.box-services{
+.box-services, .box-contact{
      padding: 10%;
 }
 
@@ -201,7 +201,9 @@ select.form-control:not([size]):not([multiple]) {
     background: #0000df;
 }
 
-
+#map{
+        height:400px;
+}
 
 
 
@@ -234,6 +236,9 @@ select.form-control:not([size]):not([multiple]) {
     .box-about{
             padding: 140px 70px 0px 140px!important;
     }
+    .box-contact{
+            padding: 40px 30px 0px 100px!important;
+    }
     .about-text-2{
         line-height: 35px;
     }
@@ -244,6 +249,12 @@ select.form-control:not([size]):not([multiple]) {
     .contai-p{
         padding-left: 100px;
         padding-right: 100px;
+    }
+    .rmap{
+        padding-right: 0px;
+    }
+    #map{
+        height:650px;
     }
 }
 
