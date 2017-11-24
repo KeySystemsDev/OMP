@@ -204,9 +204,27 @@ select.form-control:not([size]):not([multiple]) {
 #map{
         height:400px;
 }
+.galereya-top {
+                position: fixed;
 
+                background: #f6f6f6;
+                background: rgba(246, 246, 246, 0.7);
+            }
 
-
+.galereya-cell-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    -webkit-box-shadow: inset 0 0 10px 3px transparent;
+    box-shadow: inset 0 0 10px 3px transparent;
+}
 
 
 
