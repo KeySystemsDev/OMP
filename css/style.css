@@ -230,7 +230,8 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .mthomep{
-    margin-top: 18%;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 
@@ -281,7 +282,8 @@ select.form-control:not([size]):not([multiple]) {
         height:750px;
     }
     .mthomep{
-        margin-top: 25%;
+        margin-top: 250px;
+        margin-bottom: 0px;
     }
 }
 
